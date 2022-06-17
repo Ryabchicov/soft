@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/soft/static/css/main.ed67f7c7.css",
+    "main.js": "/soft/static/js/main.4c976e12.js",
+    "static/media/rectangle2.svg": "/soft/static/media/rectangle2.264b83a6826c347c3e9d.svg",
+    "static/media/rectangle.svg": "/soft/static/media/rectangle.797f0c06626da7da88cf.svg",
+    "static/media/chart.png": "/soft/static/media/chart.ed5c807bd164b8e7e40c.png",
+    "static/media/cap.svg": "/soft/static/media/cap.ec1bd4ea929aa059f5aa34930ae05872.svg",
+    "static/media/gilroy-regular.woff2": "/soft/static/media/gilroy-regular.00b026798f05ff9d7752.woff2",
+    "static/media/chart2.png": "/soft/static/media/chart2.353008d6a476fb5ab1dc.png",
+    "static/media/icons.svg": "/soft/static/media/icons.ab72f2f376990881f8bbad666f1f4a0c.svg",
+    "static/media/ellipse5.svg": "/soft/static/media/ellipse5.3d319f9354fde3bdd392.svg",
+    "static/media/ellipse6.svg": "/soft/static/media/ellipse6.0b8a82852e6246b1bf3a.svg",
+    "static/media/ellipse8.svg": "/soft/static/media/ellipse8.1f76511c2312f9cfcc9d.svg",
+    "index.html": "/soft/index.html",
+    "main.ed67f7c7.css.map": "/soft/static/css/main.ed67f7c7.css.map",
+    "main.4c976e12.js.map": "/soft/static/js/main.4c976e12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed67f7c7.css",
+    "static/js/main.4c976e12.js"
+  ]
+}
