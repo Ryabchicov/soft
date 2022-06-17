@@ -1,0 +1,73 @@
+.stat{
+      display: flex;
+      background: linear-gradient(92.38deg, rgba(255, 255, 255, 0.44) 0%, rgba(255, 255, 255, 0.31) 100%);
+      border: 1px solid #FFFFFF;
+      backdrop-filter: blur(103px);
+      border-radius: 24px;
+}
+
+.data-container{
+      margin: 19px auto 26px 20px ;
+      &>span{
+            font-size: 26px;
+            line-height: 32px;
+      }         
+      &>div{
+            :nth-child(1) span{
+                  background:linear-gradient(117.03deg, #84C4FF 0%, #2F9BFF 100%);
+            }
+            :nth-child(2) span{
+                  background:linear-gradient(102.6deg, #8AFFBD 0%, #11C55F 100%);
+            }
+            :nth-child(3) span{
+                  background:linear-gradient(102.6deg, #FFF493 0%, #FFEC47 100%);
+            }
+            :nth-child(4) span{
+                  background:linear-gradient(102.6deg, #A387FF 0%, #6E42FF 100%);
+            }
+            :nth-child(5) span{
+                  background:linear-gradient(102.6deg, #FF6464 0%, #FF3E3E 100%);
+            }
+      }
+}
+
+.value-container{
+      position: relative;
+      margin-left: 38px;
+      margin-top: 17px;
+      span{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: -2px;
+            left: -38px;
+            width: 34px;
+            height: 22px;
+            color: #FFFFFF;
+            border-radius: 9px;
+      }            
+
+}
+
+.chart-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 4%;
+      margin-right: 10%;
+      img{
+            width: 225px;
+            height: 225px;
+      }
+}
+
+@media screen and (max-width: 450px){
+      .stat{
+            flex-wrap: wrap;
+            justify-content: center;
+      }
+      .chart-container{
+            margin: auto;
+      }
+}

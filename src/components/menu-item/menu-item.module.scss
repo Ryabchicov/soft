@@ -1,0 +1,31 @@
+.item{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 7px 0 7px 0;
+      height: 44px;
+      background: #EDF2F6;
+      border-radius: 12px;
+      list-style-type: none;
+      font-size: 14px;
+      line-height: 17px;
+      cursor: pointer;
+      &>:first-child{
+            margin-left: 15px;
+            margin-right: 10px;
+      }
+      &>:last-child{
+            margin-right: 15px;
+      }
+}
+
+.active{
+      background-color: #9ED6FF;
+      &>:first-child{
+            margin-left: 20px;
+            transform: scale(1.5);
+      }
+      &>:last-child{
+            margin-right: 20px;
+      }
+}

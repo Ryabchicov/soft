@@ -1,0 +1,39 @@
+.app {
+      margin: auto;
+      width: 100%;
+      max-width: 1440px;
+      background: 
+            url('../../img/background/ellipse6.svg') 0 9.57% no-repeat fixed,
+            url('../../img/background/ellipse5.svg') 0 0 no-repeat fixed,
+            url('../../img/background/ellipse8.svg') 100% 23.05% no-repeat fixed,
+            url('../../img/background/rectangle.svg') 100% 0 no-repeat fixed,
+            url('../../img/background/rectangle2.svg') 100% 100% no-repeat fixed,
+            linear-gradient(180deg, #F3F7FF 0%, #F6F9FB 100%);
+      main{
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            max-width: 1113px;
+            section{
+                  display: flex;
+                  flex-direction: column;
+                  width: 69%;
+                  margin-top: 23px;
+                  max-width: 750px;
+            }
+
+      }
+}
+
+@media screen and (max-width: 900px){
+      .app{
+            main{
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  section{
+                        width: auto;
+                  }
+            }
+      }
+ }
